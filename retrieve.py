@@ -118,19 +118,6 @@ def main():
   _x.close_db()
   return
 #
-def pseudoMain():
-  """
-  Pseudo Code
-  """
-  pass
-  return
-  dbh = init_database_handle(finished=True)
-  create_day_range(finished=True)
-  for day in days:
-    data = process_data_page(finished=True)
-    dbh.enter(data,finished=True,progress=100)
-  dbh.close_db
-#
 # Script of file, this is only run if this file is used as a stand-alone script
 #
 if __name__ == "__main__":
